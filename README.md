@@ -1,7 +1,9 @@
 # Openmanipulator Sara Docker Wrapper
 This repository provides a Docker-based solution to ensure legacy support for the [openmanipulator sara repo](https://github.com/zang09/open_manipulator_6dof_application).
 Openmanipulator Sara extends the low cost arm [Openmanipulator](https://github.com/ROBOTIS-GIT/open_manipulator) to a total of 6 DOF, enhancing the flexibility capabilities of the robot arm. 
-The Docker architecture in this repository allows the code originally designed for Ubuntu 16 and ROS1 to run seamlessly on any Ubuntu distribution. It has been successfully tested on Ubuntu 22.04.4.
+The Docker architecture in this repository allows the code originally designed for Ubuntu 16 and ROS1 to run seamlessly on any Ubuntu distribution. 
+
+It has been successfully tested on Ubuntu 22.04.4.
 
 
 ## Prerequisites
@@ -81,6 +83,8 @@ roslaunch open_manipulator_6dof_controller open_manipulator_6dof_controller.laun
 # Launch the Gazebo simulation
 roslaunch open_manipulator_6dof_gazebo open_manipulator_6dof_gazebo.launch
 ```
+Once the gazebo simulation pops up, the play button must be pressed.
+The gazebo simulation should then look like this.
 ![Gazebo simulation](fig/gazebo_openmani_sara.png)
 
 ### GUI
