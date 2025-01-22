@@ -93,5 +93,16 @@ Once the controller is running, launch GUI program to manipulate OpenManipulator
 roslaunch open_manipulator_6dof_control_gui open_manipulator_6dof_control_gui.launch
 ```
 
+### Common issue
+A problem which often occurs is:
+```
+gazeb: cannot connect to X server :0
+```
+This can be addressed by executing the following command in a terminal in the host machine shell:
+```
+xhost +local:root
+```
+
+
 ### Further use
 For additional features and further use, please refer to [Openmanipulator Sara](https://github.com/DarioRepoRuler/openmanipulator_sara). This repository provides the same functionality as the original, with the added benefit of container

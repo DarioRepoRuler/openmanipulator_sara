@@ -102,8 +102,8 @@ RUN git clone -b noetic https://github.com/ROBOTIS-GIT/open_manipulator_dependen
 RUN git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/DynamixelSDK.git /root/catkin_ws/src/DynamixelSDK
 RUN git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/dynamixel-workbench.git /root/catkin_ws/src/dynamixel-workbench
 RUN git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git /root/catkin_ws/src/dynamixel-workbench-msgs
-RUN git clone https://github.com/zang09/open_manipulator_friends.git /root/catkin_ws/src/open_manipulator_friends
-RUN git clone https://github.com/zang09/open_manipulator_6dof_simulations.git /root/catkin_ws/src/open_manipulator_6dof_simulations
+RUN git clone https://github.com/DarioRepoRuler/open_manipulator_friends.git /root/catkin_ws/src/open_manipulator_friends
+RUN git clone https://github.com/DarioRepoRuler/open_manipulator_6dof_simulations.git /root/catkin_ws/src/open_manipulator_6dof_simulations
 RUN git clone https://github.com/zang09/open_manipulator_6dof_application.git /root/catkin_ws/src/open_manipulator_6dof_application
 RUN git clone https://github.com/ROBOTIS-GIT/robotis_manipulator.git /root/catkin_ws/src/robotis_manipulator
 RUN git clone -b kinetic-devel https://github.com/ros-perception/ar_track_alvar.git /root/catkin_ws/src/ar_track_alvar
