@@ -105,4 +105,4 @@ xhost +local:root
 
 
 ### Further use
-For additional features and further use, please refer to [Openmanipulator Sara](https://github.com/DarioRepoRuler/openmanipulator_sara). This repository provides the same functionality as the original, with the added benefit of container
+For additional features and further use, please refer to [Openmanipulator Sara](https://github.com/zang09/open_manipulator_6dof_application). This repository provides the same functionality as the original, with the added benefit of container
