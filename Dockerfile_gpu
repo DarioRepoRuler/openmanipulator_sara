@@ -107,7 +107,10 @@ RUN git clone https://github.com/DarioRepoRuler/open_manipulator_6dof_simulation
 RUN git clone https://github.com/zang09/open_manipulator_6dof_application.git /root/catkin_ws/src/open_manipulator_6dof_application
 RUN git clone https://github.com/DarioRepoRuler/robotis_manipulator.git /root/catkin_ws/src/robotis_manipulator
 RUN git clone -b kinetic-devel https://github.com/ros-perception/ar_track_alvar.git /root/catkin_ws/src/ar_track_alvar
-RUN git clone https://github.com/DarioRepoRuler/open_manipulator_controls.git /root/catkin_ws/src/open_manipulator_controls
+# RUN git clone https://github.com/DarioRepoRuler/open_manipulator_controls.git /root/catkin_ws/src/open_manipulator_controls
+RUN git clone https://github.com/shailjadav/open_manipulator_6dof_controls.git /root/catkin_ws/src/open_manipulator_6dof_controls
+RUN git clone https://github.com/shailjadav/advanced_robotics_control.git /root/catkin_ws/src/advanced_robotics_control
+RUN git clone https://github.com/DarioRepoRuler/om_position_controller.git /root/catkin_ws/src/om_position_controller
 
 # Add user for accessing USB devices
 RUN groupadd -r docker && usermod -aG docker root
